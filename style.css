@@ -1,10 +1,10 @@
 :root {
-  --bg: #0b0d10;
-  --card: #11151a;
-  --text: #e7edf5;
-  --muted: #9fb0c3;
-  --accent: #6aa6ff;
-  --line: #1f2731;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --accent: #2563eb;
+  --line: #e2e8f0;
 }
 
 * { box-sizing: border-box; }
