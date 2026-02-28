@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Song Fang Yi | Portfolio</title>
+  <meta name="description" content="Song Fang Yi — Computer Science student at NUS focused on AI systems, backend engineering, and distributed systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container hero">
+    <h1>Song Fang Yi</h1>
+    <p class="subtitle">Computer Science @ NUS • AI + Backend Engineering</p>
+    <div class="contact">
+      <a href="mailto:e0960536@u.nus.edu">e0960536@u.nus.edu</a>
+      <span>•</span>
+      <span>Singapore</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About</h2>
+      <p>
+        Final-year Computer Science student at the National University of Singapore (First Class Honours), focused on building production-ready AI systems and scalable backend services.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python, Java, TypeScript, C++</li>
+        <li><strong>Backend:</strong> FastAPI, Spring Boot, Node.js, REST APIs, Kafka, Redis</li>
+        <li><strong>AI/ML:</strong> LLM systems, LangChain, CrewAI, RAG architectures, NLP, vector search</li>
+        <li><strong>Data & Infra:</strong> PostgreSQL, MySQL, MongoDB, Pinecone/FAISS, AWS (S3/Lambda/EC2), Docker, Kubernetes</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <article>
+        <h3>Backend Engineer Intern · Binance</h3>
+        <p class="meta">Singapore · Jan 2025 – Jul 2025</p>
+        <ul>
+          <li>Built Spring Boot microservices supporting millions of daily users with 99.9% uptime.</li>
+          <li>Developed a real-time sentiment pipeline (Kafka + LLM integration) driving a 20% conversion uplift.</li>
+          <li>Implemented service health monitoring and performance tracking across distributed systems.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>AI Engineer · Taidii</h3>
+        <p class="meta">Singapore · 2025</p>
+        <ul>
+          <li>Designed a multi-agent AI report generation system with human-in-the-loop review, reducing creation time by 50%.</li>
+          <li>Built a face-recognition pipeline for automated student tagging across 1000+ photos at 80%+ accuracy.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Backend Developer Intern · Ant International</h3>
+        <p class="meta">Kuala Lumpur · May 2024 – Aug 2024</p>
+        <ul>
+          <li>Implemented new charging/settlement API features and robust validation rules for data integrity.</li>
+          <li>Collaborated across product, QA, and frontend teams to deliver production-grade features.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Selected Projects</h2>
+      <ul>
+        <li><strong>Prediction Market Arbitrage Analysis:</strong> Analyzed 22,000+ markets and 53M+ trades to uncover pricing inefficiencies.</li>
+        <li><strong>Feature Compliance Checker:</strong> Multi-agent AI + RAG system for regulation-aware product compliance checks.</li>
+        <li><strong>Healthcare Incident Reporting AI:</strong> Production RAG pipeline with semantic retrieval via pgvector.</li>
+        <li><strong>Algorithmic Trading Bot:</strong> Rule-based strategy with backtesting and AWS deployment.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>National University of Singapore</strong> — B.Comp. in Computer Science (Aug 2022 – Jun 2026)</p>
+      <p>First Class Honours · Focus: Artificial Intelligence & Software Engineering</p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Song Fang Yi</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
